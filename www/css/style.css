@@ -1,0 +1,24 @@
+#share-button {
+    position: relative;
+    top: 0px;
+}
+.menu-fan {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    z-index: 1000;
+    opacity: 1;
+    -webkit-transition:all linear 0.2s;
+    -moz-transition:all linear 0.2s;
+    -o-transition:all linear 0.2s;
+    transition:all linear 0.2s;
+}
+
+.menu-fan.ng-hide {
+    top: 0px!important;
+    left: 0px!important;
+    opacity: 0;
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg); /* Standard syntax */
+}
